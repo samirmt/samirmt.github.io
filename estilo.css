@@ -1,0 +1,297 @@
+/*
+*
+*@author Samir M. Teixeira
+*@version 1.0
+*
+*/
+html, body, .banner {
+	height: 100%;;
+}
+
+
+body {
+	background: url('images/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+}
+
+.content p {
+	margin: 0px 10px;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: 400; 
+}
+
+.content img{
+	width: 500px;
+	height: 400px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+img{
+	max-width:100%
+}
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	color:rgba(255,255,255,.9);
+}
+
+/* Barra de navegação */
+nav.navbar-transparent{
+	padding: 5px 0px;
+	background: rgba(0, 0, 0, 0.8);
+	border: none;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none !important;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+#navigation-bar ul li {
+	display:inline-block;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #28a745;
+}
+
+/* Imagem de capa */
+.banner {
+	display: table;
+	width: 100%;
+}
+
+.text-banner {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.text-banner h1 {
+	font-size: 100px;
+	font-weight: 400; 
+}
+
+.text-banner h2 {
+	font-size: 50px;
+	font-weight: 400; 
+}
+
+/* secao profile-experience */
+#profile-experience {
+	background: #e2e1e1;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+#profile-experience h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.profile {
+	padding: 40px;
+	background-color: white;
+}
+
+.profile p {
+	font-size: 25px;
+}
+
+.profile-img{
+	width:18em;
+	height:18em;
+	border-radius:50%;
+	border:10px solid #dfe4ea;
+	margin:50px auto;
+}
+
+/* section professional experience */
+#experience {
+	margin: 0 auto;
+}
+
+#experience h1 {
+	text-align: center; 
+	color: white;
+}
+
+.experience{
+	background-color:rgba(255,255,255,.9);
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	margin-bottom:.5em;border:0;border-radius:0;
+	padding: 15px 0px;
+}
+
+.experience:hover{
+	background-color:rgb(255,255,255);
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.3);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.3)
+}
+
+
+.social {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+.social li{
+	font-size: 3em;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+/* section educational */
+#educational {
+	margin: 0 auto;
+}
+
+#educational h1 {
+	text-align: center; 
+	color: white;
+}
+
+.educational{
+	background-color:rgba(255,255,255,.9);
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	margin-bottom:.5em;border:0;border-radius:0;
+	padding: 15px 0px;
+}
+
+.educational:hover{
+	background-color:rgb(255,255,255);
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.3);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.3)
+}
+
+/* section skills */
+#skills {
+	text-align: left;
+	padding: 20px 9px;
+	font-size: 18px;
+}
+
+#skills ul {
+	list-style: none;
+}
+
+#skills ul li {
+	padding: .9em;
+}
+
+#skills h1 {
+	text-align: center; 
+	color: white;
+}
+
+.painel-skill {
+	background: #e2e1e1;
+	padding: 10px 0;
+}
+
+@media (min-width:992px){
+	
+	.skill-progress {
+		float: right;
+		width: 50%;
+	}
+}
+
+/* section courses */
+#courses {
+	margin: 0 auto;
+}
+
+#courses h1 {
+	text-align: center; 
+	color: white;
+}
+
+.course{
+	background-color: whitesmoke;
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.2);
+	margin-bottom:.5em;border:0;border-radius:0;
+	padding: 15px 0px;
+}
+
+.course:hover{
+	background-color:whitesmoke;
+	-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.3);
+	box-shadow:1px 1px 2px 0 rgba(0,0,0,.3)
+}
+
+#content {
+	margin: 1px;
+}
+
+#content p {
+	text-align: left;
+	color: aquamarine;
+}
+
+.education ul {
+	padding-left: 0px;
+
+}
+
+.education li{
+	cursor:pointer
+}
+
+.education h4 {
+	font-weight: 700;
+	
+}
+
+.education {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+.badge{
+	font-size:.8em;
+	color: #fff;
+	background-color: #28a745;
+	padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.back {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 75px;
+	padding: 10px;
+	background-color:rgba(255,255,255,.9);
+}
